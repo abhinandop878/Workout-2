@@ -21,7 +21,7 @@ public class MathFunction {
         System.out.println("Enter 2 Float Number for Multiply:");
         System.out.println(obj2.multiply(input.nextFloat(),input.nextFloat()));
         MathFunction obj3=new MathFunction();
-        System.out.println("Enter 1 Integer Number and 1 Float Number for Multiply:");
+        System.out.println("Enter 1 Float Number and 1 Integer Number for Multiply:");
         System.out.println(obj3.multiply(input.nextFloat(),input.nextInt()));
     }
 }
